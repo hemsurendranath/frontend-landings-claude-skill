@@ -1,6 +1,6 @@
 <div align="center">
 
-# ⚡ frontend-landings
+# ⚡ frontend-landings-claude-skill
 
 **A Claude Code skill for generating beautiful, production-ready, animated single-file HTML landing pages.**
 
@@ -11,7 +11,7 @@ Zero build. Zero dependencies. One HTML file. Infinite polish.
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-CDN-06B6D4.svg)](https://tailwindcss.com)
 [![Anime.js](https://img.shields.io/badge/Anime.js-3.2-FF6F61.svg)](https://animejs.com)
 
-[Live Demo](https://auwalmusa.github.io/frontend-landings/demo/) · [Install](#-installation) · [Presets](#-style-presets) · [Usage](#-usage) · [Contributing](#-contributing)
+[Live Demo](https://auwalmusa.github.io/frontend-landings-claude-skill/demo/) · [Install](#-installation) · [Presets](#-style-presets) · [Usage](#-usage) · [Contributing](#-contributing)
 
 </div>
 
@@ -63,21 +63,21 @@ Each preset defines a complete visual system: fonts, colors, shadows, animations
 ### Option A: One-Line Install (Recommended)
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/auwalmusa/frontend-landings/main/install.sh | bash
+curl -sSL https://raw.githubusercontent.com/auwalmusa/frontend-landings-claude-skill/main/install.sh | bash
 ```
 
 ### Option B: Manual Install
 
 ```bash
 # 1. Clone this repo
-git clone https://github.com/auwalmusa/frontend-landings.git
+git clone https://github.com/auwalmusa/frontend-landings-claude-skill.git
 
 # 2. Create the Claude Code skills directory
-mkdir -p ~/.claude/skills/frontend-landings/references
+mkdir -p ~/.claude/skills/frontend-landings-claude-skill/references
 
 # 3. Copy skill files
-cp frontend-landings/SKILL.md ~/.claude/skills/frontend-landings/
-cp frontend-landings/references/STYLE_PRESETS.md ~/.claude/skills/frontend-landings/references/
+cp frontend-landings-claude-skill/SKILL.md ~/.claude/skills/frontend-landings-claude-skill/
+cp frontend-landings-claude-skill/references/STYLE_PRESETS.md ~/.claude/skills/frontend-landings-claude-skill/references/
 
 # 4. Restart Claude Code
 ```
@@ -85,13 +85,13 @@ cp frontend-landings/references/STYLE_PRESETS.md ~/.claude/skills/frontend-landi
 ### Option C: Direct Download
 
 ```bash
-mkdir -p ~/.claude/skills/frontend-landings/references
+mkdir -p ~/.claude/skills/frontend-landings-claude-skill/references
 
-curl -sSL https://raw.githubusercontent.com/auwalmusa/frontend-landings/main/SKILL.md \
-  -o ~/.claude/skills/frontend-landings/SKILL.md
+curl -sSL https://raw.githubusercontent.com/auwalmusa/frontend-landings-claude-skill/main/SKILL.md \
+  -o ~/.claude/skills/frontend-landings-claude-skill/SKILL.md
 
-curl -sSL https://raw.githubusercontent.com/auwalmusa/frontend-landings/main/references/STYLE_PRESETS.md \
-  -o ~/.claude/skills/frontend-landings/references/STYLE_PRESETS.md
+curl -sSL https://raw.githubusercontent.com/auwalmusa/frontend-landings-claude-skill/main/references/STYLE_PRESETS.md \
+  -o ~/.claude/skills/frontend-landings-claude-skill/references/STYLE_PRESETS.md
 ```
 
 ### Verify Installation
@@ -144,7 +144,7 @@ meets Apple design. Dark, data-focused, precise typography.
 ## 📁 Repository Structure
 
 ```
-frontend-landings/
+frontend-landings-claude-skill/
 ├── SKILL.md                      # Main skill instructions (Claude reads this)
 ├── references/
 │   └── STYLE_PRESETS.md           # 10 detailed preset definitions
