@@ -1,17 +1,17 @@
 #!/bin/bash
 #
-# frontend-landings installer
-# Usage: curl -sSL https://raw.githubusercontent.com/auwalmusa/frontend-landings/main/install.sh | bash
+# frontend-landings-claude-skill installer
+# Usage: curl -sSL https://raw.githubusercontent.com/auwalmusa/frontend-landings-claude-skill/main/install.sh | bash
 #
 
 set -e
 
-REPO="auwalmusa/frontend-landings"
+REPO="auwalmusa/frontend-landings-claude-skill"
 BRANCH="main"
-SKILL_DIR="$HOME/.claude/skills/frontend-landings"
+SKILL_DIR="$HOME/.claude/skills/frontend-landings-claude-skill"
 
 echo ""
-echo "⚡ Installing frontend-landings skill for Claude Code..."
+echo "⚡ Installing frontend-landings-claude-skill skill for Claude Code..."
 echo ""
 
 # Create directory structure
