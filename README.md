@@ -9,9 +9,9 @@ Zero build. Zero dependencies. One HTML file. Infinite polish.
 [![License: MIT](https://img.shields.io/badge/License-MIT-34D399.svg)](LICENSE)
 [![Claude Code](https://img.shields.io/badge/Claude_Code-Skill-A78BFA.svg)](https://docs.anthropic.com)
 
-[Live Demo](https://auwalmusa.github.io/frontend-landings-claude-skill/demo/) · [Install](#-installation)
+[Live Demo](https://auwalmusa.github.io/frontend-landings-claude-skill/demo/demo-5-batteric-saas-minimal.html) · [Install](#-installation)
 
-[Live Demo](https://auwalmusa.github.io/frontend-landings-claude-skill/demo/) · [Install](#-installation) · [Presets](#-style-presets) · [Usage](#-usage) · [Contributing](#-contributing)
+[Live Demo](https://auwalmusa.github.io/frontend-landings-claude-skill/demo/demo-5-batteric-saas-minimal.html) · [Install](#-installation) · [Presets](#-style-presets) · [Usage](#-usage) · [Contributing](#-contributing)
 
 </div>
 
